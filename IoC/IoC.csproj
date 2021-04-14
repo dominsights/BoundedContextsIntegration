@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoundedContextA\BoundedContextA.csproj" />
+    <ProjectReference Include="..\BoundedContextB\BoundedContextB.csproj" />
+    <ProjectReference Include="..\BoundedContextsIntegration\BoundedContextsIntegration.csproj" />
+  </ItemGroup>
+
+</Project>
