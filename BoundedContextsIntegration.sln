@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundedContextB", "BoundedC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{B8F6A589-EB69-4BA7-8652-794734C1A3C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "Main\App.csproj", "{07686EEB-DE3B-4B7C-9E74-3D9BFE28560B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{07686EEB-DE3B-4B7C-9E74-3D9BFE28560B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
