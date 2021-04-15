@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace BoundedContextsIntegration
 {
     /// <summary>
-    /// Translates <see cref="MessageA"/> into some action in BoundedContextB.
+    /// Translates <see cref="MessageB"/> into some action in BoundedContextB.
     /// </summary>
     public class MessageBHandler : IRequestHandler<MessageB, string>
     {
