@@ -14,7 +14,7 @@ namespace BoundedContextsIntegration
     /// </summary>
     public class MessageBHandler : IRequestHandler<MessageB, string>
     {
-        // it knows the message defined in BoundedContextA
+        // it knows the message defined in BoundedContextB
         public Task<string> Handle(MessageB request, CancellationToken cancellationToken)
         {
             SomeApplicationServiceA serviceA = new SomeApplicationServiceA();
